@@ -1,0 +1,134 @@
+/** 16px = 100% = 1em **/
+
+
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1 {
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    /***90px/16pm= 5.625rem**/
+    font-size: 5.625rem;
+    margin: 50px auto 0px;
+}
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    /***40px/16px = 2.5em***/
+    font-size: 2.5rem;
+    font-weight: normal; 
+    margin-top: 40px;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+p {
+    line-height: 2;
+} 
+hr {
+    border-color: #EAF6F6;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    margin: 100px auto;
+    width: 5%;
+}
+
+.top-container {
+    background-color: #bdf3e9;
+    padding-top: 200px;
+    position: relative;
+}
+.middle-container {
+    margin: 100px auto;
+}
+.bottom-container {
+    background-color: #66BFBF;
+    line-height: 2;
+    padding: 50px 0 50px 0;
+}
+
+.intro {
+    margin: auto;
+    width: 50%; 
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+.web {
+    text-decoration: underline;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.profile-img {
+    width: 25%;
+}
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.acc-img {
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+.fash-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.contact-message {
+    line-height: 2;
+    margin: 40px auto 80px;
+    width: 45%;
+}
+
+/***Using https://css3buttongenerator.com ******/
+.btn {
+    background: #11999E;
+    background-image: linear-gradient(#11cdd4, #11999e);
+    border: none;
+    border-radius: 8px;
+    color: #EAF6F6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width: 150px;
+
+}
+.btn:hover {
+    background: #30e3cb;
+    background-image: linear-gradient(#30e3cb, #2bc4ad);
+}
+
+.footer-link {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 25px;
+    text-decoration: none;
+}
+.footer-link:hover {
+    color: rgb(14, 61, 122);
+}
+.copyright {
+    color: #EAF6F6;
+    /***75% of 16px equals ro 0.75rem**/
+    font-size: 0.75rem;
+}
