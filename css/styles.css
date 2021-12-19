@@ -1,5 +1,10 @@
-/** 16px = 100% = 1em **/
-
+html, body {
+    height: 100%;
+    width: 100%;
+}
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     color: #40514E;
@@ -10,23 +15,23 @@ body {
 h1 {
     color: #66BFBF;
     font-family: 'Sacramento', cursive;
-    /***90px/16pm= 5.625rem**/
-    font-size: 5.625rem;
-    margin: 50px auto 0px;
+    font-size: 3rem;
+    margin: 200px auto 0px;
 }
 h2 {
     color: #66BFBF;
     font-family: 'Montserrat', sans-serif;
-    /***40px/16px = 2.5em***/
-    font-size: 2.5rem;
+    font-size: 1.2rem;
     font-weight: normal; 
     margin-top: 40px;
 }
 h3 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
     color: #11999E;
 }
 p {
+    font-size: 0.8rem;
     line-height: 2;
 } 
 hr {
@@ -37,69 +42,37 @@ hr {
     margin: 100px auto;
     width: 5%;
 }
-
-.top-container {
-    background-color: #bdf3e9;
-    padding-top: 200px;
-    position: relative;
+nav ul {
+    margin-top: 0px;
+    padding-top: 20px;
 }
-.middle-container {
-    margin: 100px auto;
+nav li {
+    display: inline;
+    list-style: none;
+    margin-top: 0px;
 }
-.bottom-container {
-    background-color: #66BFBF;
-    line-height: 2;
-    padding: 50px 0 50px 0;
-}
-
-.intro {
-    margin: auto;
-    width: 50%; 
-}
-.skill-row {
-    width: 50%;
-    margin: 100px auto;
-    text-align: left;
-}
-.web {
-    text-decoration: underline;
-}
-.top-cloud {
-    position: absolute;
-    right: 300px;
-    top: 50px;
-}
-.bottom-cloud {
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
-}
-.profile-img {
-    width: 25%;
-}
-.code-img {
-    width: 25%;
-    float: left;
-    margin-right: 30px;
+#nav-bar {
+    background-color: #046063;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    text-align: right;
+    width: 100%;
 }
 .acc-img {
     width: 25%;
     float: right;
     margin-right: 30px;
 }
-.fash-img {
-    width: 25%;
-    float: left;
-    margin-right: 30px;
-}
-
-.contact-message {
+.bottom-container {
+    background-color: #66BFBF;
     line-height: 2;
-    margin: 40px auto 80px;
-    width: 45%;
+    padding: 30px 0px;
 }
-
-/***Using https://css3buttongenerator.com ******/
+.bottom-cloud {
+    margin: 2% 40% 1% 0%;
+    width: 20%;
+}
 .btn {
     background: #11999E;
     background-image: linear-gradient(#11cdd4, #11999e);
@@ -107,28 +80,118 @@ hr {
     border-radius: 8px;
     color: #EAF6F6;
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    padding: 10px 20px 10px 20px;
+    font-size: 1rem;
+    padding: 10px 20px;
     text-decoration: none;
     width: 150px;
-
 }
 .btn:hover {
     background: #30e3cb;
     background-image: linear-gradient(#30e3cb, #2bc4ad);
 }
-
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.contact-message {
+    line-height: 2;
+    margin: 40px auto 80px;
+    width: 70%;
+}
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+}
+.dev-ul {
+    line-height: 2;
+    list-style-type: square;
+}
+.dev-link {
+    color: #40514E;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+.fash-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
 .footer-link {
     color: #11999E;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 25px;
     text-decoration: none;
 }
 .footer-link:hover {
     color: rgb(14, 61, 122);
 }
-.copyright {
-    color: #EAF6F6;
-    /***75% of 16px equals ro 0.75rem**/
-    font-size: 0.75rem;
+.intro {
+    margin: auto;
+    width: 80%; 
 }
+.middle-container {
+    margin: 100px auto;
+}
+.nav-link {
+    color: #EAF6F6;
+    font-size: 0.9rem;
+    padding: 5% 2%;
+    text-decoration: none;
+}
+.profile-img {
+    width: 25%;
+}
+.project-tile{
+    width: 80%;
+    margin: 100px auto;
+    text-align: left;
+}
+.top-container {
+    background-color: #bdf3e9;
+    height: 100vh;
+}
+.top-cloud {
+    width: 20%;
+    margin-left: 40%;
+}
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 5.625rem;
+        margin: 50px auto 0px;
+    }
+    h2, h3 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .contact-message {
+        width: 45%;
+    }
+    .dev-link {
+        font-size: 1rem;
+    }
+    .intro {
+        width: 50%;
+    }
+    .nav-link {
+        font-size: 1.2rem;
+        padding: 20px 30px;
+    }
+    .project-tile {
+        width: 50%;
+    }
+    
+}
+ /**   position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.top-container {
+    background-color: #bdf3e9;
+    padding-top: 200px;
+    position: relative;
+}
+.web {
+    text-decoration: underline;
+}***/
