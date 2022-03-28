@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+}
+
 html, body {
     height: 100%;
     width: 100%;
@@ -6,159 +16,95 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    color: #40514E;
-    margin: 0;
-    text-align: center;
-    font-family: 'Merriweather', serif;
-}
-h1 {
-    color: #66BFBF;
-    font-family: 'Sacramento', cursive;
-    font-size: 3rem;
-    margin: 200px auto 0px;
+.hero-section {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(135deg, #2f4454 50%, #ffb6b6bb 50%) ;
 }
 h2 {
-    color: #66BFBF;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
-    font-weight: normal; 
-    margin-top: 40px;
-}
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    color: #11999E;
-}
-p {
-    font-size: 0.8rem;
-    line-height: 2;
-} 
-hr {
-    border-color: #EAF6F6;
-    border-style: none;
-    border-top-style: dotted;
-    border-width: 5px;
-    margin: 100px auto;
-    width: 5%;
-}
-nav ul {
-    margin-top: 0px;
-    padding-top: 20px;
-}
-nav li {
-    display: inline;
-    list-style: none;
-    margin-top: 0px;
-}
-#nav-bar {
-    background-color: #046063;
-    height: 70px;
-    position: sticky;
-    top: 0;
-    text-align: right;
-    width: 100%;
-}
-.acc-img {
-    width: 25%;
-    float: right;
-    margin-right: 30px;
-}
-.bottom-container {
-    background-color: #66BFBF;
-    line-height: 2;
-    padding: 30px 0px;
-}
-.bottom-cloud {
-    margin: 2% 40% 1% 0%;
-    width: 20%;
-}
-.btn {
-    background: #11999E;
-    background-image: linear-gradient(#11cdd4, #11999e);
-    border: none;
-    border-radius: 8px;
-    color: #EAF6F6;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    padding: 10px 20px;
-    text-decoration: none;
-    width: 150px;
-}
-.btn:hover {
-    background: #30e3cb;
-    background-image: linear-gradient(#30e3cb, #2bc4ad);
-}
-.code-img {
-    width: 25%;
-    float: left;
-    margin-right: 30px;
-}
-.contact-message {
-    line-height: 2;
-    margin: 40px auto 80px;
-    width: 70%;
-}
-.copyright {
-    color: #EAF6F6;
-    font-size: 0.75rem;
-}
-.dev-ul {
-    line-height: 2;
-    list-style-type: square;
-}
-.dev-link {
-    color: #40514E;
-    font-size: 0.8rem;
-    text-decoration: none;
-}
-.fash-img {
-    width: 25%;
-    float: left;
-    margin-right: 30px;
-}
-.footer-link {
-    color: #11999E;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-}
-.footer-link:hover {
-    color: rgb(14, 61, 122);
-}
-.intro {
-    margin: auto;
-    width: 80%; 
-}
-.middle-container {
-    margin: 100px auto;
-}
-.nav-link {
-    color: #EAF6F6;
-    font-size: 0.9rem;
-    padding: 5% 2%;
-    text-decoration: none;
+    color: #2f4454;
 }
 .profile-img {
-    width: 25%;
+    width: 35%;
+    border-radius: 50%;
+    border: 3px solid #2f4454;
+
 }
-.project-tile{
-    width: 80%;
-    margin: 100px auto;
-    text-align: left;
+
+
+.skills-list p {
+    background-image: linear-gradient(#2f4454, #627481);
+    color: #ece7e7;
+    width: 300px;
+    cursor: pointer;
 }
-.top-container {
-    background-color: #bdf3e9;
-    height: 100vh;
+
+.skills-list p:hover {
+    background-image: linear-gradient(#2f4454, #2f4454);
 }
-.top-cloud {
-    width: 20%;
-    margin-left: 40%;
+
+main {
+    background-color:#ece7e7;
 }
-@media only screen and (min-width: 768px) {
+
+#about-me, #skills {
+    padding: 50px 0px;
+}
+
+.my-hr {
+    width: 3rem;
+    margin: auto;
+    border-style: dotted none none;
+    border-width: 8px;
+    border-color: #2f4454;
+    background-color: transparent !important;
+}
+
+.card {
+    background-color: #2f4454 !important;
+    border: 2px solid #ece7e75e !important;
+}
+
+.card-text, .dev-link, .pro-h2, .footer-link, footer {
+    color: #ece7e7;
+}
+
+
+.skills-img {
+    width: 30%;
+}
+
+.skills-other {
+    border: 1px solid #2f445442;
+}
+
+#projects {
+    background-color: #2f4454;
+    color: #ece7e7;
+}
+
+.dev-link {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #2f4454 !important;
+    color: #ece7e7 !important;
+}
+
+footer {
+    background-color: #2f4454;
+}
+
+
+
+@media only screen and (max-width: 768px) {
     h1 {
         font-size: 5.625rem;
         margin: 50px auto 0px;
     }
+
+    
     h2, h3 {
         font-size: 2rem;
     }
