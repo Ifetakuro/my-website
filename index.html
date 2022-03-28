@@ -9,75 +9,152 @@
     <!--Go to fabricon.cc to create a fabricon-->
     <link rel="icon" href="favicon.ico">
     <!--Go to fonts.google.com to download fonts so the website would ensure it shows-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-      <nav id="nav-bar">
-        <ul>
-          <li><a class="nav-link" href="#welcome_section">Welcome</a></li>
-          <li><a class="nav-link" href="#about-me">About</a></li>
-          <li><a class="nav-link" href="#projects">Work</a></li>
-          <li><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <div class="top-container" id="welcome-section">
-          <img class="top-cloud" src="images/cloud.png" alt="cloud-image">
-          <h1>I'm Ife.</h1>
-          <h2>a  web developer.</h2>
-          <img class="bottom-cloud" src="images/cloud.png" alt="cloud-image">
-         <!-- <img src="images/mountain.png" alt="mountain-image">-->
+
+  <section class="hero-section" >
+    <nav class="navbar navbar-expand-lg navbar-dark px-3 shadow-sm position-fixed top-0 start-0 end-0" style="background-color: #2f4454 !important; z-index: 10;">
+      <div class="container-fluid">
+        <h2><a class="navbar-brand fs-3 text-white" href="#">My Portfolio</a></h2>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto gap-3">
+            <li class="nav-item">
+              <a class="nav-link active fs-5 text-white" aria-current="page" href="#">Welcome</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 text-white" href="#about-me">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 text-white" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 text-white" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 text-white" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="middle-container" id="about-me">
-          <div class="profile">
-            <img class="profile-img" src="images/profile-image.png" alt="profile-image">
-            <h2>Hello.</h2>
-            <p class="intro">I'm a web developer based in Lagos State, Nigeria. I have a passion for web design and love to create beautiful websites. I 🧡 chocolate and ice-cream. </p>
-          </div>
-          <hr>
-          <!--images were downloaded from flaticon recommended by udemy-->
-          <div id="projects">
-            <h2>My Skills.</h2>
-            <div class="project-tile">
-              <img class="code-img" src="images/coding.png" alt="coding-image">
-              <h3>Design and development</h3>
-              <p>I've had passion for coding since when i was little, because I have always wanted to build beautiful websites and great apps for people. I'm currently building my web development skills, which i hope to be great at over time. </p>
-              <p>Here are some of my projects carried out on Free Code Camp, which were arranged according to my progress:</p>
-                <ul class="dev-ul">
-                  <li><a class="dev-link" href="https://codepen.io/ifetakuro/details/RwZVmBY">Tribute Page</a></li>
-                  <li><a class="dev-link" href="https://codepen.io/ifetakuro/details/VwzzMYK">Survey Form</a></li>
-                  <li><a class="dev-link" href="https://codepen.io/ifetakuro/details/abyVNBr">Product Landing Page</a></li>
-                  <li><a class="dev-link" href="https://codepen.io/ifetakuro/pen/jOGVooJ">Javascript Documentation Page</a></li>
-                </ul>
-              <p>You can check out my other projects on <a class="dev-link" href="https://github.com/Ifetakuro" target="_blank">GitHub</a></p>
-            </div>
-            <div class="project-tile">
-              <img class="acc-img" src="images/budget.png" alt="accounting-image">
-              <h3>Accounting</h3>
-              <p>I also have a basic knowledge of book-keeping, ledger and accounting concepts. I can also prepare reliable financial statements. </p>
-            </div>
-            <div class="project-tile">
-              <img class="fash-img" src="images/fashion-design.png" alt="fashion-image">
-              <h3>Fashion Designing</h3>
-              <p>I also have a great skill in fashion designing. Some of the outfits I put on, are made by me😊.</p>
-            </div>
-          </div>
-          <hr>
-          <div class="contact-me" id="contact">
-            <h2>Get In Touch</h2>
-            <h3>If you love fashion as much as i do.</h3>
-            <p class="contact-message">Love fashion as much as i do? Let's travel into the world of fashion together! We can code while putting on beautiful apparels.</p>
-            <a class="btn" href="mailto:takurofisayo@gmail.com ">Send a mail</a>
-          </div>
+    </nav>
+    <div class="d-flex flex-column flex-md-row w-100 p-5 gap-5 justify-content-center align-items-center h-100">
+      <div class="w-100 pt-5 h-75">
+        <img src="images/hero.svg" class="w-75" alt="Coding svg">
       </div>
-        
-        
-      <div class="bottom-container">
-          <a class="footer-link" href="https://www.linkedin.com/mwlite/in/takuro-oluwafisayo-57693419b" target="_blank">LinkedIn</a>
-          <p class="copyright">© 2021 Oluwafisayo Ifeoluwa Takuro.</p>
+      <div class="w-100 pt-5" id="welcome-section">
+        <h1 class="w-75 introduction ms-auto pb-5"></h1>
       </div>
+    </div>
+  </section>
+  <main>
+    <section id="about-me" class="container d-flex align-items-center">
+      <div class="w-75 mx-auto py-5 fs-5 text-center">
+        <img class="profile-img mb-5" src="images/profile-image.png" alt="profile-image">
+        <p>Oluwafisayo is a software developer based in Lagos State, Nigeria. She has a passion for software development and loves to create beautiful websites. She is currently building her software development skills and hopes to be great software developer. </p>
+      </div>
+    </section>
+    <hr class="my-hr">
+    <section class="text-center container px-3 py-5" id="skills">
+      <h2 class="fs-2 pb-5">My skills</h2>
+      <div class="skills-list row row-cols-1 row-cols-md-3 justify-content-evenly">
+        <p class="shadow-sm py-3 rounded fs-5">HTML</p>
+        <p class="shadow-sm py-3 rounded fs-5">CSS</p>
+        <p class="shadow-sm py-3 rounded fs-5">Design</p>
+        <p class="shadow-sm py-3 rounded fs-5">Javascript</p>
+        <p class="shadow-sm py-3 rounded fs-5">Bootstrap</p>
+        <p class="shadow-sm py-3 rounded fs-5">Git</p>
+      </div>
+    </section>
+    <hr class="my-hr py-5">
+    <section class="py-5" id="projects">
+      <div class="container">
+        <h2 class="fs-1 text-center pb-3 pro-h2">Projects</h2>
+        <div class="row row-cols-2 justify-content-center align-items-center ">
+          <div class="card m-3 p-4 shadow" style="width: 25rem;">
+            <a href="https://eyecare-colab.netlify.app/" ><img src="images/eyecare-colab.netlify.app_ (1).png" alt="Eye Care" class="project-img card-img-top"></a>
+            <div class="card-body">
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            </div>
+          </div>
+          <div class="card m-3 p-4 shadow" style="width: 25rem;">
+            <a href="https://pink-form.netlify.app/" ><img src="images/pink-form.netlify.app_ (1).png" alt="Pink Form" class="project-img card-img-top"></a>
+            <div class="card-body">
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            </div>
+          </div>
+          <div class="card m-3 p-4 shadow" style="width: 25rem;">
+            <a href="https://express-wings.netlify.app/" ><img src="images/express-wings.netlify.app_ (1).png" alt="Express wings" class="project-img card-img-top"></a>
+            <div class="card-body">
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            </div>
+          </div>
+          <div class="card m-3 p-4 shadow" style="width: 25rem;">
+            <a href="https://takurofisayo-space-tour.netlify.app/" ><img src="images/takurofisayo-space-tour.netlify.app_.png" class="project-img card-img-top" alt="Space Tour"></a>
+            <div class="card-body">
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            </div>
+          </div>
+        </div>
+        <div class="p-5">
+          <p class="fs-5">Here are some of my projects carried out on Free Code Camp, which were arranged according to my progress:</p>
+          <ul class="dev-ul">
+            <li><a class="dev-link fs-5" href="https://codepen.io/ifetakuro/details/RwZVmBY">Tribute Page</a></li>
+            <li><a class="dev-link fs-5" href="https://codepen.io/ifetakuro/details/VwzzMYK">Survey Form</a></li>
+            <li><a class="dev-link fs-5" href="https://codepen.io/ifetakuro/details/abyVNBr">Product Landing Page</a></li>
+            <li><a class="dev-link fs-5" href="https://codepen.io/ifetakuro/pen/jOGVooJ">Javascript Documentation Page</a></li>
+          </ul>
+          <p class="fs-5">You can check out my other projects on <a class="dev-link fs-5" href="https://github.com/Ifetakuro" target="_blank">GitHub</a></p>
+        </div>
+      </div>
+    </section>
+    <section class="container py-5">
+      <h3>Other Skills</h3>
+      <div class="d-flex flex-column flex-md-row gap-3 py-5">
+        <div class="d-flex p-3 skills-other shadow rounded-3">
+          <img class="skills-img" src="images/accounting.svg" alt="accounting-image">
+          <div class="ps-5">
+            <h3>Accounting</h3>
+            <p>I also have a basic knowledge of book-keeping, ledger and accounting concepts. I can also prepare reliable financial statements. </p>
+          </div>
+        </div>
+        <div class="d-flex p-3 skills-other shadow rounded-3">
+          <img class="skills-img" src="images/fashion.svg" alt="fashion-image">
+          <div class="ps-5">
+            <h3>Fashion Designing</h3>
+            <p>I also have a great skill in fashion designing. Some of the outfits I put on, are made by me😊.</p>
+          </div>
+        </div>
+      </div>
+      <hr class="my-hr py-5">
+      <div class="contact-me text-center" id="contact">
+        <h2>Get In Touch</h2>
+        <h3>If you would like to have beautiful websites</h3>
+        <p>Love building beautiful apps as much as i do? Let's travel into the world of coding together.</p>
         
+        <a class="btn py-2 px-3 shadow" href="mailto:takurofisayo@gmail.com ">Send a mail</a>
+      </div>
+
+    </section>
     
+  </main>
+  <footer class="py-5">
+    <div class="container text-center">
+        <a href="https://www.linkedin.com/mwlite/in/takuro-oluwafisayo-57693419b" class="footer-link"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/Ifetakuro" class="footer-link "><i class="fa-brands fa-github"></i></a>
+        <p class="copyright">© 2021 Oluwafisayo Ifeoluwa Takuro.</p>
+    </div>
+  </footer>
+        
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+  
+  <script src="script.js"></script>
 </body>
 </html>
