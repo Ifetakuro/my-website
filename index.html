@@ -1,215 +1,412 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ifeoluwa</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
     <!--Go to fabricon.cc to create a fabricon-->
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="favicon.ico" />
     <!--Go to fonts.google.com to download fonts so the website would ensure it shows-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-<!-- HERO SECTION -->
-  <section class="hero-section" >
-    <!-- NAVIGATION -->
-    <nav class="navbar navbar-expand-lg navbar-dark px-3 shadow-sm position-fixed top-0 start-0 end-0" >
-      <div class="container-fluid">
-        <h2><a class="navbar-brand fs-3 text-white" href="#">My Portfolio</a></h2>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto gap-3">
-            <li class="nav-item">
-              <a class="nav-link active fs-5 text-white" aria-current="page" href="#">Welcome</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fs-5 text-white" href="#about-me">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fs-5 text-white" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fs-5 text-white" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fs-5 text-white" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- HERO -->
-    <div class="d-flex flex-column flex-md-row w-100 p-5 gap-5 justify-content-center align-items-center h-100">
-      <div class="w-100 pt-5 h-75">
-        <img src="images/hero.svg" class="w-75" alt="Coding svg">
-      </div>
-      <div class="w-100 pt-5" id="welcome-section">
-        <h1 class="w-75 introduction ms-auto pb-5"></h1>
-      </div>
-    </div>
-  </section>
-  <main>
-    <!-- ABOUT ME -->
-    <section id="about-me" class="container d-flex align-items-center">
-      <div class="w-75 mx-auto py-5 fs-5 text-center">
-        <img class="profile-img mb-5" src="images/profile-image.png" alt="profile-image">
-        <p>Oluwafisayo is a software developer based in Lagos State, Nigeria. She has a passion for software development and loves to create beautiful websites. She is currently building her software development skills and hopes to be great software developer. </p>
-      </div>
-    </section>
-    <hr class="my-hr">
-
-    <!-- MY SKILLS -->
-    <section class="text-center container px-3 py-5" id="skills">
-      <h2 class="fs-2 pb-5">My skills</h2>
-      <div class="skills-list row justify-content-evenly align-items-center">
-        <p class="shadow-sm py-3 col-6 col-md-3 rounded fs-5">HTML</p>
-        <p class="shadow-sm py-3 col-6 col-md-3 rounded fs-5">CSS</p>
-        <p class="shadow-sm py-3 col-6 col-md-3 rounded fs-5">Design</p>
-        <p class="shadow-sm py-3 col-6 col-md-3 rounded fs-5">Javascript</p>
-        <p class="shadow-sm py-3 col-6 col-md-3 rounded fs-5">Bootstrap</p>
-        <p class="shadow-sm py-3 col-6 col-md-3 rounded fs-5">Git</p>
-        <p class="shadow-sm py-3 col-6 col-md-3 rounded fs-5">Vue</p>
-        <p class="shadow-sm py-3 col-6 col-md-3 rounded fs-5">React</p>
-      </div>
-    </section>
-    <hr class="my-hr py-5">
-    <!-- MY PROJECTS -->
-    <section class="py-5" id="projects">
-      <div class="container">
-        <h2 class="fs-1 text-center pb-3 pro-h2">Projects</h2>
-        <div class="carousel slide" id="carouselExampleControls" data-bs-ride="carousel">
-          <div class="carousel-inner text-center">
-            <div class="carousel-item active card">
-              <a href="https://covid19trackernigeria.netlify.app/" ><img src="images/covid19trackernigeria.netlify.app_.png" alt="Covid Tracker" class="project-img card-img-top d-block w-100"></a>
-              <div class="card-body">
-                <p>Covid Tracker</h3>
-              </div>
-            </div>
-            <div class="carousel-item card">
-              <a href="https://ifetakuro.github.io/todo-list-vue3/" ><img src="images/ifetakuro.github.io_todo-list-vue3_.png" alt="Todo List" class="project-img card-img-top d-block w-100"></a>
-              <div class="card-body">
-                <p>Todo List App</h3>
-              </div>
-            </div>
-            <div class="carousel-item card">
-              <a href="https://my-iroko-tv.netlify.app/" ><img src="images/my-iroko-tv.netlify.app_.png" alt="Iroko Tv" class="project-img card-img-top d-block w-100"></a>
-              <div class="card-body">
-                <p>Iroko Tv</h3>
-              </div>
-            </div>
-            <div class="carousel-item card">
-              <a href="https://the-real-weather-app.netlify.app/" ><img src="images/the-real-weather-app.netlify.app_.png" alt="Weather App" class="project-img card-img-top d-block w-100"></a>
-              <div class="card-body">
-                <p>Weather App</h3>
-              </div>
-            </div>
-            <div class="carousel-item card">
-              <a href="https://ifetakuro.github.io/Food_recipe_app/" ><img src="images/ifetakuro.github.io_Food_recipe_app_ (1).png" alt="Food Recipe App" class="project-img card-img-top d-block w-100"></a>
-              <div class="Food Recipe App">
-                <p>Food Recipe App</h5>
-              </div>
-            </div>
-            <div class="carousel-item card">
-              <a href="https://eyecare-colab.netlify.app/" ><img src="images/eyecare-colab.netlify.app_ (1).png" alt="Eye Care" class="project-img card-img-top d-block w-100"></a>
-              <div class="card-body">
-                <p>Eye Care App</h5>
-              </div>
-            </div>
-            <div class="carousel-item card">
-              <a href="https://pink-form.netlify.app/" ><img src="images/pink-form.netlify.app_ (1).png" alt="Pink Form" class="project-img card-img-top d-block w-100"></a>
-              <div class="card-body">
-                <p>Form</h5>
-              </div>
-            </div>
-            <div class="carousel-item card">
-              <a href="https://express-wings.netlify.app/" ><img src="images/express-wings.netlify.app_ (1).png" alt="Express wings" class="d-block w-100 project-img card-img-top"></a>
-              <div class="card-body">
-                <p>Express wings</h3>
-              </div>
-            </div>
-            <div class="carousel-item card">
-              <a href="https://takurofisayo-space-tour.netlify.app/" ><img src="images/takurofisayo-space-tour.netlify.app_.png" class="project-img card-img-top d-block w-100" alt="Space Tour"></a>
-              <div class="card-body">
-                <p>Space Tour</h3>
-              </div>
-            </div>
-          </div>
-          <!-- CAROUSEL BUTTON -->
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+      <!-- NAVIGATION -->
+      <nav
+        class="navbar navbar-expand-lg navbar-dark px-3 shadow-sm position-fixed top-0 start-0 end-0"
+      >
+        <div class="container-fluid">
+          <h2>
+            <a class="navbar-brand fs-3 text-white" href="#">My Portfolio</a>
+          </h2>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto gap-3">
+              <li class="nav-item">
+                <a
+                  class="nav-link active fs-5 text-white"
+                  aria-current="page"
+                  href="#"
+                  >Welcome</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 text-white" href="#about-me">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 text-white" href="#projects"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 text-white" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 text-white" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-
-        <!-- OTHER PROJECTS -->
-        <div class="p-5">
-          <p class="fs-5">Here are some of my projects carried out on Free Code Camp, which were arranged according to my progress:</p>
-          <ul class="dev-ul">
-            <li><a class="dev-link fs-5" href="https://codepen.io/ifetakuro/details/RwZVmBY">Tribute Page</a></li>
-            <li><a class="dev-link fs-5" href="https://codepen.io/ifetakuro/details/VwzzMYK">Survey Form</a></li>
-            <li><a class="dev-link fs-5" href="https://codepen.io/ifetakuro/details/abyVNBr">Product Landing Page</a></li>
-            <li><a class="dev-link fs-5" href="https://codepen.io/ifetakuro/pen/jOGVooJ">Javascript Documentation Page</a></li>
-          </ul>
-          <p class="fs-5">You can check out my other projects on <a class="dev-link fs-5" href="https://github.com/Ifetakuro" target="_blank">GitHub</a></p>
+      </nav>
+      <!-- HERO -->
+      <div
+        class="d-flex flex-column-reverse flex-sm-row w-100 p-5 gap-5 justify-content-sm-center h-100 justify-content-between mt-sm-0 mt-5"
+      >
+        <div
+          class="w-100 pt-5 d-flex justify-content-center align-items-center align-self-sm-start align-self-center"
+        >
+          <img src="images/hero.svg" class="w-75" alt="Coding svg" />
+        </div>
+        <div
+          class="w-100 py-5 align-self-end align-self-center"
+          id="welcome-section"
+        >
+          <h1 class="introduction ms-auto fs-1 fw-normal pt-5 text-center"></h1>
         </div>
       </div>
     </section>
+    <main>
+      <!-- ABOUT ME -->
+      <section id="about-me" class="container d-flex align-items-center">
+        <div class="w-75 mx-auto py-5 fs-5 text-center">
+          <img
+            class="profile-img mb-5"
+            src="images/profile-image.png"
+            alt="profile-image"
+          />
+          <p>
+            Oluwafisayo is a software developer based in Lagos State, Nigeria.
+            She has a passion for software development and loves to create
+            beautiful websites. She is currently building her software
+            development skills and hopes to be great software developer.
+          </p>
+        </div>
+      </section>
+      <hr class="my-hr py-5" />
 
-    <!-- OTHER SKILLS -->
-    <section class="container py-5">
-      <h3>Other Skills</h3>
-      <div class="d-flex flex-column flex-md-row gap-3 py-5">
-        <div class="d-flex p-3 skills-other shadow rounded-3">
-          <img class="skills-img" src="images/accounting.svg" alt="accounting-image">
-          <div class="ps-5">
-            <h3>Accounting</h3>
-            <p>I also have a basic knowledge of book-keeping, ledger and accounting concepts. I can also prepare reliable financial statements. </p>
+      <!-- MY PROJECTS -->
+      <section class="py-5" id="projects">
+        <div class="container">
+          <h2 class="fs-1 text-center pb-3 pro-h2">Projects</h2>
+          <div
+            class="carousel slide"
+            id="carouselExampleControls"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner text-center">
+              <div class="carousel-item active card">
+                <a href="https://ecommerceprofile.netlify.app/" target="_blank"
+                  ><img
+                    src="images/ecommerceprofile.netlify.app_baskets.png"
+                    alt="E-commerce profile"
+                    class="project-img card-img-top d-block w-100"
+                /></a>
+                <div class="card-body">
+                  <h5>E-commerce profile</h5>
+                </div>
+              </div>
+              <div class="carousel-item card">
+                <a
+                  href="https://covid19trackernigeria.netlify.app/"
+                  target="_blank"
+                  ><img
+                    src="images/covid19trackernigeria.netlify.app_.png"
+                    alt="Covid Tracker"
+                    class="project-img card-img-top d-block w-100"
+                /></a>
+                <div class="card-body">
+                  <h5>Covid Tracker</h5>
+                </div>
+              </div>
+              <div class="carousel-item card">
+                <a
+                  href="https://ifetakuro.github.io/todo-list-vue3/"
+                  target="_blank"
+                  ><img
+                    src="images/ifetakuro.github.io_todo-list-vue3_.png"
+                    alt="Todo List"
+                    class="project-img card-img-top d-block w-100"
+                /></a>
+                <div class="card-body">
+                  <h5>Todo List App</h5>
+                </div>
+              </div>
+              <div class="carousel-item card">
+                <a href="https://my-iroko-tv.netlify.app/" target="_blank"
+                  ><img
+                    src="images/my-iroko-tv.netlify.app_.png"
+                    alt="Iroko Tv"
+                    class="project-img card-img-top d-block w-100"
+                /></a>
+                <div class="card-body">
+                  <h5>Iroko Tv</h5>
+                </div>
+              </div>
+              <div class="carousel-item card">
+                <a
+                  href="https://the-real-weather-app.netlify.app/"
+                  target="_blank"
+                  ><img
+                    src="images/the-real-weather-app.netlify.app_.png"
+                    alt="Weather App"
+                    class="project-img card-img-top d-block w-100"
+                /></a>
+                <div class="card-body">
+                  <h5>Weather App</h5>
+                </div>
+              </div>
+              <div class="carousel-item card">
+                <a
+                  href="https://ifetakuro.github.io/Food_recipe_app/"
+                  target="_blank"
+                  ><img
+                    src="images/ifetakuro.github.io_Food_recipe_app_ (1).png"
+                    alt="Food Recipe App"
+                    class="project-img card-img-top d-block w-100"
+                /></a>
+                <div class="card-body">
+                  <h5>Food Recipe App</h5>
+                </div>
+              </div>
+              <div class="carousel-item card">
+                <a href="https://eyecare-colab.netlify.app/" target="_blank"
+                  ><img
+                    src="images/eyecare-colab.netlify.app_ (1).png"
+                    alt="Eye Care"
+                    class="project-img card-img-top d-block w-100"
+                /></a>
+                <div class="card-body">
+                  <h5>Eye Care App</h5>
+                </div>
+              </div>
+              <div class="carousel-item card">
+                <a href="https://pink-form.netlify.app/" target="_blank"
+                  ><img
+                    src="images/pink-form.netlify.app_ (1).png"
+                    alt="Pink Form"
+                    class="project-img card-img-top d-block w-100"
+                /></a>
+                <div class="card-body">
+                  <h5>Form</h5>
+                </div>
+              </div>
+              <div class="carousel-item card">
+                <a href="https://express-wings.netlify.app/" target="_blank"
+                  ><img
+                    src="images/express-wings.netlify.app_ (1).png"
+                    alt="Express wings"
+                    class="d-block w-100 project-img card-img-top"
+                /></a>
+                <div class="card-body">
+                  <h5>Express wings</h5>
+                </div>
+              </div>
+              <div class="carousel-item card">
+                <a
+                  href="https://takurofisayo-space-tour.netlify.app/"
+                  target="_blank"
+                  ><img
+                    src="images/takurofisayo-space-tour.netlify.app_.png"
+                    class="project-img card-img-top d-block w-100"
+                    alt="Space Tour"
+                /></a>
+                <div class="card-body">
+                  <h5>Space Tour</h5>
+                </div>
+              </div>
+            </div>
+            <!-- CAROUSEL BUTTON -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <!-- OTHER PROJECTS -->
+          <!-- <div class="p-5">
+            <p class="fs-5">
+              Here are some of my projects carried out on Free Code Camp, which
+              were arranged according to my progress:
+            </p>
+            <ul class="dev-ul">
+              <li>
+                <a
+                  class="dev-link fs-5"
+                  href="https://codepen.io/ifetakuro/details/RwZVmBY"
+                  >Tribute Page</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dev-link fs-5"
+                  href="https://codepen.io/ifetakuro/details/VwzzMYK"
+                  >Survey Form</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dev-link fs-5"
+                  href="https://codepen.io/ifetakuro/details/abyVNBr"
+                  >Product Landing Page</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dev-link fs-5"
+                  href="https://codepen.io/ifetakuro/pen/jOGVooJ"
+                  >Javascript Documentation Page</a
+                >
+              </li>
+            </ul> -->
+          <div class="p-5">
+            <p class="fs-6 text-center">
+              You can check out my other projects on
+              <a
+                class="dev-link fs-6"
+                href="https://github.com/Ifetakuro"
+                target="_blank"
+                >GitHub</a
+              >
+            </p>
           </div>
         </div>
-        <div class="d-flex p-3 skills-other shadow rounded-3">
-          <img class="skills-img" src="images/fashion.svg" alt="fashion-image">
-          <div class="ps-5">
-            <h3>Fashion Designing</h3>
-            <p>I also have a great skill in fashion designing. Some of the outfits I put on, are made by me😊.</p>
+      </section>
+
+      <!-- MY SKILLS -->
+      <section class="container py-5" id="skills">
+        <div class="px-3 py-3">
+          <h2 class="fs-2 pb-3">My skills</h2>
+          <p>HTML, CSS, Javascript, Bootstrap, Git, Vue, React</p>
+        </div>
+        <hr class="my-hr py-3" />
+        <h5 class="px-3">Other Skills</h5>
+        <div class="d-flex flex-column flex-md-row gap-3 p-5">
+          <div
+            class="d-flex justify-content-center align-items-center p-3 skills-other shadow rounded-3"
+          >
+            <img
+              class="skills-img"
+              src="images/accounting.svg"
+              alt="accounting-image"
+            />
+            <div class="ps-5">
+              <h6>Accounting</h6>
+              <p class="other-p">
+                I also have a good knowledge of book-keeping, ledger and
+                accounting concepts. I can also prepare reliable financial
+                statements.
+              </p>
+            </div>
+          </div>
+          <div
+            class="d-flex justify-content-center align-items-center p-3 skills-other shadow rounded-3"
+          >
+            <img
+              class="skills-img"
+              src="images/fashion.svg"
+              alt="fashion-image"
+            />
+            <div class="ps-5">
+              <h6>Fashion Designing</h6>
+              <p class="other-p">
+                I also have a great skill in fashion designing. Some of the
+                outfits I put on, are made by me😊.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <hr class="my-hr py-5">
+        <hr class="my-hr py-5" />
 
-      <!-- CONTACT ME -->
-      <div class="contact-me text-center" id="contact">
-        <h2>Get In Touch</h2>
-        <h3>If you would like to have beautiful websites</h3>
-        <p>Love building beautiful apps as much as i do? Let's travel into the world of coding together.</p>
-        
-        <a class="btn py-2 px-3 shadow" href="mailto:takurofisayo@gmail.com ">Send a mail</a>
-      </div>
-    </section>
-  </main>
+        <!-- CONTACT ME -->
+        <div class="contact-me text-center p-3" id="contact">
+          <h2>Get In Touch</h2>
+          <h3>If you would like to build beautiful websites</h3>
+          <p>
+            Love building beautiful apps as much as i do? Let's travel into the
+            world of coding together.
+          </p>
 
-  <!-- FOOTER -->
-  <footer class="py-5">
-    <div class="container text-center">
-        <a href="https://www.linkedin.com/mwlite/in/takuro-oluwafisayo-57693419b" class="footer-link"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://github.com/Ifetakuro" class="footer-link "><i class="fa-brands fa-github"></i></a>
-        <p class="copyright">© <span id="footer-year">2021</span> Oluwafisayo Ifeoluwa Takuro.</p>
-    </div>
-  </footer>
-        
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
-  
-  <script src="script.js"></script>
-</body>
+          <a class="btn py-2 px-3 shadow" href="mailto:takurofisayo@gmail.com "
+            >Send a mail</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="py-5">
+      <div class="container text-center">
+        <a
+          href="https://www.linkedin.com/mwlite/in/takuro-oluwafisayo-57693419b"
+          class="footer-link"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/Ifetakuro" class="footer-link"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <p class="copyright">
+          © <span id="footer-year">2021</span> Oluwafisayo Ifeoluwa Takuro.
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
 </html>

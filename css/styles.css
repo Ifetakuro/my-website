@@ -1,167 +1,184 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.5;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  list-style: none;
 }
 
-html, body {
-    height: 100%;
-    width: 100%;
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+body {
+  transition: 1s ease-in-out;
 }
 
 nav {
-    background-color: #2f4454 !important; 
-    z-index: 10;
-    transition: 0.3s ease-in-out;
+  background-color: #2f4454 !important;
+  z-index: 10;
+  transition: 0.3s ease-in-out;
 }
 
 nav.scroll-active {
-    background-color: #ece7e7 !important;
+  background-color: #ece7e7 !important;
 }
 
 nav.scroll-active a {
-    color: #2f4454 !important;
+  color: #2f4454 !important;
 }
 
 nav.scroll-active button {
-    background-color: #2f4454 !important;
+  background-color: #2f4454 !important;
 }
 
 .hero-section {
-    height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(135deg, #2f4454 50%, #ffb6b6bb 50%) ;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(135deg, #2f4454 50%, #ffb6b6bb 50%);
 }
 h2 {
-    color: #2f4454;
+  color: #2f4454;
 }
 .profile-img {
-    width: 35%;
-    border-radius: 50%;
-    border: 3px solid #2f4454;
-
+  width: 35%;
+  border-radius: 50%;
+  border: 3px solid #2f4454;
 }
 
-
 .skills-list p {
-    background-image: linear-gradient(#2f4454, #627481);
-    color: #ece7e7;
-    width: 150px;
-    cursor: pointer;
+  background-image: linear-gradient(#2f4454, #627481);
+  color: #ece7e7;
+  width: 150px;
+  cursor: pointer;
 }
 
 .skills-list p:hover {
-    background-image: linear-gradient(#2f4454, #2f4454);
+  background-image: linear-gradient(#2f4454, #2f4454);
 }
 
 main {
-    background-color:#ece7e7;
+  background-color: #ece7e7;
 }
 
-#about-me, #skills {
-    padding: 50px 0px;
+#about-me,
+#skills {
+  padding: 50px 0px;
 }
 
 .my-hr {
-    width: 3rem;
-    margin: auto;
-    border-style: dotted none none;
-    border-width: 8px;
-    border-color: #2f4454;
-    background-color: transparent !important;
-}
-
-.card {
-    background-color: #2f4454 !important;
-    border: 2px solid #ece7e75e !important;
+  width: 3rem;
+  margin: auto;
+  border-style: dotted none none;
+  border-width: 8px;
+  border-color: #2f4454;
+  background-color: transparent !important;
 }
 
 .carousel {
-    max-width: 500px;
-    margin: auto;
+  max-width: 500px;
+  height: 300px;
 }
 
-.card-text, .dev-link, .pro-h2, .footer-link, footer {
-    color: #ece7e7;
+.card {
+  height: 100%;
+  background-color: #2f4454 !important;
+  border: 2px solid #ece7e75e !important;
 }
 
+.card img {
+  height: 250px;
+}
+
+.carousel {
+  max-width: 500px;
+  margin: auto;
+}
+
+.card-text,
+.dev-link,
+.pro-h2,
+.footer-link,
+footer {
+  color: #ece7e7;
+}
 
 .skills-img {
-    width: 30%;
+  width: 30%;
 }
 
 .skills-other {
-    border: 1px solid #2f445442;
+  border: 1px solid #2f445442;
+  min-height: 200px;
+}
+
+.other-p {
+  font-size: 0.8rem;
 }
 
 #projects {
-    background-color: #2f4454;
-    color: #ece7e7;
+  background-color: #2f4454;
+  color: #ece7e7;
 }
 
 .dev-link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .btn {
-    background-color: #2f4454 !important;
-    color: #ece7e7 !important;
+  background-color: #2f4454 !important;
+  color: #ece7e7 !important;
 }
 
 footer {
-    background-color: #2f4454;
+  background-color: #2f4454;
 }
-
-
-
 
 @media only screen and (max-width: 768px) {
-    h1 {
-        font-size: 5.625rem;
-        margin: 50px auto 0px;
-    }
+  h1 {
+    font-size: 5.625rem;
+    margin: 50px auto 0px;
+  }
 
-    
-    h2, h3 {
-        font-size: 2rem;
-    }
-    p {
-        font-size: 1rem;
-    }
-    .contact-message {
-        width: 45%;
-    }
-    .dev-link {
-        font-size: 1rem;
-    }
-    .intro {
-        width: 50%;
-    }
-    .nav-link {
-        font-size: 1.2rem;
-        padding: 20px 30px;
-    }
-    .project-tile {
-        width: 50%;
-    }
-    
+  h2,
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .contact-message {
+    width: 45%;
+  }
+  .dev-link {
+    font-size: 1rem;
+  }
+  .intro {
+    width: 50%;
+  }
+  .nav-link {
+    font-size: 1.2rem;
+    padding: 20px 30px;
+  }
+  .project-tile {
+    width: 50%;
+  }
+
+  footer p,
+  .contact-me p,
+  .skills-other p {
+    font-size: 0.8rem;
+  }
 }
- /**   position: absolute;
-    right: 300px;
-    top: 50px;
+
+@media only screen and (max-width: 576px) {
+  .hero-section {
+    background-image: linear-gradient(180deg, #ffb6b6bb 50%, #2f4454 50%);
+  }
 }
-.top-container {
-    background-color: #bdf3e9;
-    padding-top: 200px;
-    position: relative;
-}
-.web {
-    text-decoration: underline;
-}***/
