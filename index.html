@@ -34,11 +34,11 @@
     <section class="hero-section">
       <!-- NAVIGATION -->
       <nav
-        class="navbar navbar-expand-lg navbar-dark px-3 shadow-sm position-fixed top-0 start-0 end-0"
+        class="navbar navbar-expand-lg navbar-dark px-3 shadow position-fixed top-0 start-0 end-0"
       >
         <div class="container-fluid">
           <h2>
-            <a class="navbar-brand fs-3 text-white" href="#">My Portfolio</a>
+            <a class="navbar-brand fs-3 text-dark" href="#">My Portfolio</a>
           </h2>
           <button
             class="navbar-toggler"
@@ -49,31 +49,31 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon text-dark"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto gap-3">
               <li class="nav-item">
                 <a
-                  class="nav-link active fs-5 text-white"
+                  class="nav-link active fs-5 text-dark"
                   aria-current="page"
                   href="#"
                   >Welcome</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-5 text-white" href="#about-me">About</a>
+                <a class="nav-link fs-5 text-dark" href="#about-me">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-5 text-white" href="#projects"
+                <a class="nav-link fs-5 text-dark" href="#projects"
                   >Projects</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-5 text-white" href="#skills">Skills</a>
+                <a class="nav-link fs-5 text-dark" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-5 text-white" href="#contact">Contact</a>
+                <a class="nav-link fs-5 text-dark" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -98,27 +98,25 @@
     </section>
     <main>
       <!-- ABOUT ME -->
-      <section id="about-me" class="container d-flex align-items-center">
+      <section id="about-me" class="container d-flex align-items-center bg-white">
         <div class="w-75 mx-auto py-5 fs-5 text-center">
           <img
             class="profile-img mb-5"
             src="images/profile-image.png"
             alt="profile-image"
           />
-          <p>
+          <p class="text-dark">
             Oluwafisayo is a software developer based in Lagos State, Nigeria.
-            She has a passion for software development and loves to create
-            beautiful websites. She is currently building her software
-            development skills and hopes to be great software developer.
+            She is a passionate and skilled Frontend Developer with years of experience in developing complex web and mobile applications using React, React Native, Redux, and other related technologies. She is also experienced in developing scalable, robust, and responsive applications, working on front-end development.
           </p>
         </div>
       </section>
       <hr class="my-hr py-5" />
 
       <!-- MY PROJECTS -->
-      <section class="py-5" id="projects">
+      <section class="" id="projects">
         <div class="container">
-          <h2 class="fs-1 text-center pb-3 pro-h2">Projects</h2>
+          <h2 class="fs-2 text-center pb-3 pro-h2">Projects</h2>
           <div
             class="carousel slide"
             id="carouselExampleControls"
@@ -126,6 +124,28 @@
           >
             <div class="carousel-inner text-center">
               <div class="carousel-item card active">
+                <a href="https://admin-panel-kohl-delta.vercel.app/" target="_blank"
+                  ><img
+                    src="images/admin-panel.png"
+                    alt="Admin Panel"
+                    class="project-img card-img-top d-block w-100"
+                /></a>
+                <div class="card-body">
+                  <h5>Admin Panel</h5>
+                </div>
+              </div>
+              <div class="carousel-item card">
+                <a href="https://fisayo-takuro-ghportfolio.netlify.app/" target="_blank"
+                  ><img
+                    src="images/github-portfolio.png"
+                    alt="GitHub Portfolio"
+                    class="project-img card-img-top d-block w-100"
+                /></a>
+                <div class="card-body">
+                  <h5>GitHub Portfolio</h5>
+                </div>
+              </div>
+              <div class="carousel-item card">
                 <a href="https://ecommerceprofile.netlify.app/" target="_blank"
                   ><img
                     src="images/ecommerceprofile.netlify.app_baskets.png"
@@ -265,7 +285,7 @@
               data-bs-slide="prev"
             >
               <span
-                class="carousel-control-prev-icon"
+                class="carousel-control-prev-icon text-dark"
                 aria-hidden="true"
               ></span>
               <span class="visually-hidden">Previous</span>
@@ -321,15 +341,20 @@
               </li>
             </ul> -->
           <div class="p-5">
-            <p class="fs-6 text-center">
+            <p class="fs-6 text-center text-dark">
               You can check out my other projects on
               <a
-                class="dev-link fs-6"
+                class="fs-6 text-dark"
                 href="https://github.com/Ifetakuro"
                 target="_blank"
                 >GitHub</a
-              >
-            </p>
+              > or <a
+              class="fs-6 text-dark"
+              href="https://fisayo-takuro-ghportfolio.netlify.app/"
+              target="_blank"
+              >GitHub Portfolio</a
+            >
+            </p> 
           </div>
         </div>
       </section>
@@ -338,7 +363,11 @@
       <section class="container py-5" id="skills">
         <div class="px-3 py-3">
           <h2 class="fs-2 pb-3">My skills</h2>
-          <p>HTML, CSS, Javascript, Bootstrap, Git, Vue, React</p>
+          <p><b>Frontend</b>: React, React Native, Vue, RESTful APIs, JSON</p>
+          <p><b>Languages</b>: JavaScript, HTML & CSS</p>
+<p><b>Version Control</b>: Git, GitHub, Bitbucket</p>
+<p><b>Interpersonal</b>: Leadership, Problem Solving, Team building, Communication, Adaptability, Fast learner, Agile</p>
+
         </div>
         <hr class="my-hr py-3" />
         <h5 class="px-3">Other Skills</h5>
@@ -396,7 +425,7 @@
     </main>
 
     <!-- FOOTER -->
-    <footer class="py-5">
+    <footer class="py-3">
       <div class="container text-center">
         <a
           href="https://www.linkedin.com/mwlite/in/takuro-oluwafisayo-57693419b"
