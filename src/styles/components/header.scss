@@ -21,6 +21,7 @@ header {
   nav {
     ul {
       display: flex;
+      list-style: none;
 
       a {
         color: $white;

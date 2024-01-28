@@ -1,0 +1,42 @@
+@import "../mixins";
+@import "../colors";
+
+.progress-bar {
+  width: 100%;
+  .progress-heading {
+    @include flex-between;
+
+    h4 {
+      font-size: 1.2rem;
+      font-weight: normal;
+    }
+    p {
+      font-size: 0.9rem;
+    }
+  }
+
+  .progress-container {
+    width: 100%;
+    background-color: $light-bg;
+    border-radius: 1rem;
+    height: 1rem;
+    margin: 0.3rem 0 1rem;
+    overflow: hidden;
+
+    .progress {
+      display: inline-block;
+      background: $btn-gradient;
+      height: 100%;
+      border-radius: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 568px) {
+    h4 {
+      font-size: 1rem;
+    }
+    .progress-container {
+      height: 0.8rem;
+    }
+  }
+}

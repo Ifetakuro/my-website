@@ -1,0 +1,44 @@
+.tech {
+  min-height: 100vh;
+
+  .progress-bars {
+    display: flex;
+
+    margin: 4rem 4rem 3rem;
+
+    flex-direction: column;
+  }
+
+  .skills {
+    h3 {
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+    }
+    ul {
+      margin: 1rem 4rem;
+      gap: 2rem;
+      display: grid;
+      grid-template: auto/repeat(auto-fit, minmax(30%, 1fr));
+      li {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 568px) {
+    .progress-bars,
+    .skills ul {
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .progress-bars,
+    .skills ul {
+      margin-left: 0rem;
+      margin-right: 0rem;
+    }
+  }
+}
