@@ -1,0 +1,102 @@
+@import "../mixins";
+@import "../colors";
+
+header {
+  width: 100%;
+  padding: 1rem 2rem;
+  @include flex-between;
+
+  .logo-name {
+    display: flex;
+    align-items: center;
+
+    gap: 0.3rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+
+    svg {
+      width: 2rem;
+    }
+  }
+  nav {
+    ul {
+      display: flex;
+
+      a {
+        color: $white;
+        font-weight: 500;
+        font-size: 1.2rem;
+        cursor: pointer;
+      }
+    }
+
+    // growing text decoration
+    &.main-nav {
+      margin-left: -5rem;
+      ul {
+        gap: 2rem;
+
+        li {
+          position: relative;
+        }
+        li::after {
+          content: "";
+          position: absolute;
+          bottom: -5px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 0;
+          height: 2px;
+
+          background: $btn-gradient;
+          transition: width 0.3s ease-in-out;
+        }
+
+        li:hover::after {
+          width: 100%;
+        }
+      }
+    }
+
+    &.socials-nav {
+      ul {
+        gap: 0.7rem;
+        svg {
+          width: 1.2rem;
+        }
+      }
+    }
+  }
+
+  .menu {
+    width: 2rem;
+    height: 3rem;
+    display: none;
+  }
+
+  @media screen and (max-width: 878px) {
+    .main-nav,
+    .socials-nav {
+      display: none;
+    }
+    .menu {
+      display: flex;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    padding: 1rem;
+    .logo-name {
+      font-size: 1.2rem;
+
+      svg {
+        width: 1.4rem;
+      }
+    }
+
+    .menu {
+      width: 1.5rem;
+      height: 2.5rem;
+    }
+  }
+}

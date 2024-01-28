@@ -1,0 +1,14 @@
+.projects {
+  min-height: 100vh;
+
+  .project-cards {
+    margin: 2rem 0;
+    display: grid;
+    grid-template: auto/repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+
+    @media screen and (max-width: 568px) {
+      grid-template: auto/repeat(auto-fit, minmax(200px, 1fr));
+    }
+  }
+}
