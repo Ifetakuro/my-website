@@ -69,10 +69,55 @@ header {
     }
   }
 
-  .menu {
-    width: 2rem;
-    height: 3rem;
+  .menu-div {
     display: none;
+    .menu {
+      width: 1.5rem;
+      height: 2.5rem;
+      cursor: pointer;
+    }
+    .menu-nav {
+      position: absolute;
+
+      border-radius: 0.5rem;
+      right: 2rem;
+      top: 4rem;
+      height: 0;
+      background: $bg-color;
+      box-shadow: 0px 0px 3px 0px #ffffff71;
+      z-index: 1000;
+      overflow: hidden;
+      transition: height 0.3s ease-in-out;
+
+      &.visible {
+        height: 10.7rem;
+      }
+
+      nav {
+        display: flex;
+        margin: 1rem;
+
+        ul {
+          flex-direction: column;
+          gap: 0.7rem;
+
+          a {
+            font-size: 1rem;
+          }
+        }
+        &.socials-nav {
+          border-top: 1px solid #fff;
+          margin-top: 1.5rem;
+          ul {
+            flex-direction: row;
+            margin-top: 0.6rem;
+            svg {
+              width: 1.2rem;
+            }
+          }
+        }
+      }
+    }
   }
 
   @media screen and (max-width: 878px) {
@@ -80,7 +125,7 @@ header {
     .socials-nav {
       display: none;
     }
-    .menu {
+    .menu-div {
       display: flex;
     }
   }
