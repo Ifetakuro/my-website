@@ -2,6 +2,8 @@ import "./styles/app.scss";
 import Header from "./components/header";
 import Hero from "./containers/Hero";
 import Projects from "./containers/Projects";
+import Technologies from "./containers/Technologies";
+import Contact from "./containers/Contact";
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <main>
         <Hero />
         <Projects />
+        <Technologies />
+        <Contact />
       </main>
     </div>
   );

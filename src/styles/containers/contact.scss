@@ -1,0 +1,31 @@
+@import "../colors";
+.contact {
+  .section-heading {
+    margin-bottom: 1rem;
+  }
+
+  .contact-text {
+    color: $light-gray;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .cta {
+    font-weight: 500;
+    color: $white;
+  }
+
+  .closing-remark {
+    text-align: center;
+    font-weight: 500;
+    margin: 5rem 0 2rem;
+    font-style: italic;
+  }
+
+  .copyright {
+    text-align: center;
+    margin: 1rem auto 0;
+    font-size: 0.8rem;
+    color: $light-gray;
+  }
+}
