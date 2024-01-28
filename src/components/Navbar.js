@@ -19,7 +19,8 @@ const Navbar = () => {
           </li>
           <li>
             <ScrollLink to="contact" smooth={true} duration={100}>
-              Contact me
+              Contact
+
             </ScrollLink>
           </li>
         </ul>
