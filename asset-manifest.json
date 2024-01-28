@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-website/static/css/main.57e35b99.css",
-    "main.js": "/my-website/static/js/main.4d39540e.js",
+    "main.js": "/my-website/static/js/main.e624521f.js",
     "static/media/irokoTv.png": "/my-website/static/media/irokoTv.ca3d4e3c7da98e36fdd9.png",
     "static/media/gpt.png": "/my-website/static/media/gpt.740f3713086bc553f427.png",
     "static/media/commerceProfile.png": "/my-website/static/media/commerceProfile.61a8f9c2fac8f178c8f9.png",
@@ -10,10 +10,10 @@
     "static/media/drawing.png": "/my-website/static/media/drawing.78cbffee0cdcd9e4f28f.png",
     "index.html": "/my-website/index.html",
     "main.57e35b99.css.map": "/my-website/static/css/main.57e35b99.css.map",
-    "main.4d39540e.js.map": "/my-website/static/js/main.4d39540e.js.map"
+    "main.e624521f.js.map": "/my-website/static/js/main.e624521f.js.map"
   },
   "entrypoints": [
     "static/css/main.57e35b99.css",
-    "static/js/main.4d39540e.js"
+    "static/js/main.e624521f.js"
   ]
 }
