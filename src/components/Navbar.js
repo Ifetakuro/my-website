@@ -20,6 +20,7 @@ const Navbar = () => {
           <li>
             <ScrollLink to="contact" smooth={true} duration={100}>
               Contact
+
             </ScrollLink>
           </li>
         </ul>
