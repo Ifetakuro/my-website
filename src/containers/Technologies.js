@@ -8,11 +8,11 @@ const Technologies = () => {
         Technologies
       </h2>
       <div className="progress-bars">
-        <ProgressBar title={"HTML"} level={"Advanced"} progress={"68%"} />
+        <ProgressBar title={"HTML"} level={"Advanced"} progress={"72%"} />
         <ProgressBar
           title={"CSS, Sass, Bootstrap & Tailwind"}
           level={"Advanced"}
-          progress={"75%"}
+          progress={"80%"}
         />
         <ProgressBar title={"JavaScript"} level={"Advanced"} progress={"62%"} />
         <ProgressBar title={"React"} level={"Advanced"} progress={"70%"} />
@@ -22,7 +22,8 @@ const Technologies = () => {
           progress={"50%"}
         />
         <ProgressBar title={"Vue"} level={"Beginner"} progress={"40%"} />
-        <ProgressBar title={"Next"} level={"Beginner"} progress={"30%"} />
+        <ProgressBar title={"Next"} level={"Advanced"} progress={"70%"} />
+        <ProgressBar title={"Typescript"} level={"Regular"} progress={"50%"} />
       </div>
       <div className="skills">
         <h3>Additional technologies and skills</h3>
