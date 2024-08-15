@@ -1,3 +1,4 @@
+import learnbeta from "./assets/learnbeta.png";
 import finSpace from "./assets/fin-space.png";
 import gpt from "./assets/gpt.png";
 import adminPanel from "./assets/admin-panel.png";
@@ -6,6 +7,13 @@ import irokoTv from "./assets/irokoTv.png";
 import commerceProfile from "./assets/commerceProfile.png";
 
 export const projectsData = [
+  {
+    image: learnbeta,
+    alt: "Learnbeta",
+    title: "Learnbeta",
+    info: "An e-learning platform for children built with Next, Tailwind and Typescript.",
+    to: "https://www.learnbeta.ng/",
+  },
   {
     image: finSpace,
     alt: "FinSpace",
