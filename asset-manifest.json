@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.57e35b99.css",
-    "main.js": "/my-website/static/js/main.f101a882.js",
+    "main.css": "/my-website/static/css/main.889c7596.css",
+    "main.js": "/my-website/static/js/main.8388b062.js",
     "static/media/irokoTv.png": "/my-website/static/media/irokoTv.ca3d4e3c7da98e36fdd9.png",
     "static/media/gpt.png": "/my-website/static/media/gpt.740f3713086bc553f427.png",
-    "static/media/fin-space.png": "/my-website/static/media/fin-space.94e9a9006fe105292165.png",
     "static/media/commerceProfile.png": "/my-website/static/media/commerceProfile.61a8f9c2fac8f178c8f9.png",
     "static/media/statschool.png": "/my-website/static/media/statschool.a5c99e7401e8b442f7ce.png",
     "static/media/admin-panel.png": "/my-website/static/media/admin-panel.7d9d883465cd27d41ab2.png",
     "static/media/drawing.png": "/my-website/static/media/drawing.78cbffee0cdcd9e4f28f.png",
     "index.html": "/my-website/index.html",
-    "main.57e35b99.css.map": "/my-website/static/css/main.57e35b99.css.map",
-    "main.f101a882.js.map": "/my-website/static/js/main.f101a882.js.map"
+    "main.889c7596.css.map": "/my-website/static/css/main.889c7596.css.map",
+    "main.8388b062.js.map": "/my-website/static/js/main.8388b062.js.map"
   },
   "entrypoints": [
-    "static/css/main.57e35b99.css",
-    "static/js/main.f101a882.js"
+    "static/css/main.889c7596.css",
+    "static/js/main.8388b062.js"
   ]
 }
