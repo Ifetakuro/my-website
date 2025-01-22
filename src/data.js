@@ -5,8 +5,16 @@ import adminPanel from "./assets/admin-panel.png";
 import statschool from "./assets/statschool.png";
 import irokoTv from "./assets/irokoTv.png";
 import commerceProfile from "./assets/commerceProfile.png";
+import asapuu from "./assets/asapuu.png";
 
 export const projectsData = [
+  {
+    image: asapuu,
+    alt: "Asapuu",
+    title: "Asapuu",
+    info: "A crypto trading platform built with React and Tailwind",
+    to: "https://www.asapuu.com/",
+  },
   {
     image: learnbeta,
     alt: "Learnbeta",

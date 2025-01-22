@@ -19,11 +19,11 @@ const Technologies = () => {
         <ProgressBar
           title={"React Native"}
           level={"Regular"}
-          progress={"50%"}
+          progress={"65%"}
         />
         <ProgressBar title={"Vue"} level={"Beginner"} progress={"40%"} />
         <ProgressBar title={"Next"} level={"Advanced"} progress={"70%"} />
-        <ProgressBar title={"Typescript"} level={"Regular"} progress={"50%"} />
+        <ProgressBar title={"Typescript"} level={"Regular"} progress={"70%"} />
       </div>
       <div className="skills">
         <h3>Additional technologies and skills</h3>
