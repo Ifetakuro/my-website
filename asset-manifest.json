@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.57e35b99.css",
-    "main.js": "/my-website/static/js/main.84e7cc11.js",
+    "main.css": "/my-website/static/css/main.d3b1c786.css",
+    "main.js": "/my-website/static/js/main.9dc11ebc.js",
     "static/media/irokoTv.png": "/my-website/static/media/irokoTv.ca3d4e3c7da98e36fdd9.png",
     "static/media/gpt.png": "/my-website/static/media/gpt.740f3713086bc553f427.png",
     "static/media/learnbeta.png": "/my-website/static/media/learnbeta.7a04f8fa40aae3041e36.png",
@@ -12,11 +12,11 @@
     "static/media/admin-panel.png": "/my-website/static/media/admin-panel.7d9d883465cd27d41ab2.png",
     "static/media/drawing.png": "/my-website/static/media/drawing.78cbffee0cdcd9e4f28f.png",
     "index.html": "/my-website/index.html",
-    "main.57e35b99.css.map": "/my-website/static/css/main.57e35b99.css.map",
-    "main.84e7cc11.js.map": "/my-website/static/js/main.84e7cc11.js.map"
+    "main.d3b1c786.css.map": "/my-website/static/css/main.d3b1c786.css.map",
+    "main.9dc11ebc.js.map": "/my-website/static/js/main.9dc11ebc.js.map"
   },
   "entrypoints": [
-    "static/css/main.57e35b99.css",
-    "static/js/main.84e7cc11.js"
+    "static/css/main.d3b1c786.css",
+    "static/js/main.9dc11ebc.js"
   ]
 }
