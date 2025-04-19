@@ -1,6 +1,7 @@
 import "../styles/containers/contact.scss";
 
 const Contact = () => {
+  const year = new Date().getFullYear();
   return (
     <section className="contact">
       <h2 className="section-heading" id="contact">
@@ -23,7 +24,7 @@ const Contact = () => {
           </a>
         </p>
         <h3 className="closing-remark">Let's bring your vision to life!</h3>
-        <p className="copyright">Oluwafisayo Takuro © 2024</p>
+        <p className="copyright">Oluwafisayo Takuro © {year}</p>
       </div>
     </section>
   );
