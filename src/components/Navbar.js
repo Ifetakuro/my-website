@@ -1,4 +1,4 @@
-import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
 import { Github, LinkedIn } from "../assets/svg";
 
 const Navbar = () => {
@@ -20,7 +20,6 @@ const Navbar = () => {
           <li>
             <ScrollLink to="contact" smooth={true} duration={100}>
               Contact
-
             </ScrollLink>
           </li>
         </ul>

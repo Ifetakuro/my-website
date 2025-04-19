@@ -1,6 +1,7 @@
-import CustomButton from "../components/CustomButton";
 import "../styles/containers/hero.scss";
+import CustomButton from "../components/CustomButton";
 import drawing from "../assets/drawing.png";
+import { Link as ScrollLink } from "react-scroll";
 
 const Hero = () => {
   return (
@@ -15,7 +16,10 @@ const Hero = () => {
           dedicated to pushing the boundaries of frontend development,
           consistently delivering high-quality results.
         </p>
-        <CustomButton>Let's Begin</CustomButton>
+
+        <ScrollLink to="projects" smooth={true} duration={100}>
+          <CustomButton>Let's Begin</CustomButton>
+        </ScrollLink>
       </div>
       <img src={drawing} alt="drawing" />
     </section>
