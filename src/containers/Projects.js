@@ -6,8 +6,8 @@ import { projectsData } from "../data";
 
 const Projects = () => {
   // Slice the data
-  const freelanceProjects = projectsData.slice(0, 2);
-  const learningProjects = projectsData.slice(2);
+  const freelanceProjects = projectsData.slice(0, 3);
+  const learningProjects = projectsData.slice(3);
 
   return (
     <section className="projects">
@@ -16,7 +16,12 @@ const Projects = () => {
       </h2>
 
       <div className="project-category">
-        <h3 className="project-subheading">🛠 Core Freelance Projects</h3>
+        <h3 className="project-subheading">🛠 Featured Freelance Projects</h3>
+        <p className="project-description">
+          A selection of projects where I either took sole responsibility for
+          the frontend development, contributed significantly to the development
+          process, or initiated the build from scratch.
+        </p>
         <div className="project-cards">
           {freelanceProjects.map((project, index) => (
             <ProjectCard key={`freelance-${index}`} {...project} />

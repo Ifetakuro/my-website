@@ -1,6 +1,14 @@
 .projects {
   min-height: 100vh;
 
+  .project-description {
+    color: rgb(193, 193, 193);
+  }
+
+  .project-subheading {
+    margin: 40px 0px 10px 0px;
+  }
+
   .project-cards {
     margin: 2rem 0;
     display: grid;

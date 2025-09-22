@@ -6,6 +6,7 @@ import statschool from "./assets/statschool.png";
 import irokoTv from "./assets/irokoTv.png";
 import commerceProfile from "./assets/commerceProfile.png";
 import asapuu from "./assets/asapuu.png";
+import cashtella from "./assets/cashtella.png";
 
 export const projectsData = [
   {
@@ -21,6 +22,13 @@ export const projectsData = [
     title: "Learnbeta",
     info: "An engaging e-learning platform designed for children, built with Next.js, Tailwind CSS, and TypeScript. The platform offers interactive learning experiences tailored for young users, structured course content, and intuitive navigation to support early education in a digital format.",
     to: "https://www.learnbeta.ng/",
+  },
+  {
+    image: cashtella,
+    alt: "Cashtella Logo",
+    title: "Cashtella",
+    info: "Cashtella is a reliable payment platform that helps businesses simplify local and cross-border transactions. Designed for speed, security, and efficiency, it empowers organizations to manage Canada–US payments with ease while ensuring timely processing and seamless integration.",
+    to: "https://cashtella.com/",
   },
   {
     image: finSpace,
