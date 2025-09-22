@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.d3b1c786.css",
-    "main.js": "/my-website/static/js/main.b1775f9a.js",
+    "main.css": "/my-website/static/css/main.3658ca8c.css",
+    "main.js": "/my-website/static/js/main.f72970cd.js",
     "static/media/irokoTv.png": "/my-website/static/media/irokoTv.ca3d4e3c7da98e36fdd9.png",
     "static/media/gpt.png": "/my-website/static/media/gpt.740f3713086bc553f427.png",
+    "static/media/cashtella.png": "/my-website/static/media/cashtella.2de31714125973cc4fca.png",
     "static/media/learnbeta.png": "/my-website/static/media/learnbeta.7a04f8fa40aae3041e36.png",
     "static/media/fin-space.png": "/my-website/static/media/fin-space.94e9a9006fe105292165.png",
     "static/media/asapuu.png": "/my-website/static/media/asapuu.c9b63576facc8316fd1b.png",
@@ -12,11 +13,11 @@
     "static/media/admin-panel.png": "/my-website/static/media/admin-panel.7d9d883465cd27d41ab2.png",
     "static/media/drawing.png": "/my-website/static/media/drawing.78cbffee0cdcd9e4f28f.png",
     "index.html": "/my-website/index.html",
-    "main.d3b1c786.css.map": "/my-website/static/css/main.d3b1c786.css.map",
-    "main.b1775f9a.js.map": "/my-website/static/js/main.b1775f9a.js.map"
+    "main.3658ca8c.css.map": "/my-website/static/css/main.3658ca8c.css.map",
+    "main.f72970cd.js.map": "/my-website/static/js/main.f72970cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3b1c786.css",
-    "static/js/main.b1775f9a.js"
+    "static/css/main.3658ca8c.css",
+    "static/js/main.f72970cd.js"
   ]
 }
